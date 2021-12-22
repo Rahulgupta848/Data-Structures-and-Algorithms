@@ -22,10 +22,10 @@ void binary_search(int arr[],int n,int key)
     /*
     Binary Search.
     -->In order to perform binary search array must be sorted in increasing or decreasing order.
-    Time Complexity:
+    Time Complexity:O(log(n)).
     */
    int f=0,l=n;
-   int m=(f+l)/2;
+   int m=f+(l-f)/2;
    while(f<=l)
    {
         if(arr[m]==key)
@@ -37,12 +37,12 @@ void binary_search(int arr[],int n,int key)
         {
             f=f;
             l=m-1;
-            m=(f+l)/2;
+            m=f+(l-f)/2;
         }
         else{
             f=m+1;
             l=l;
-            m=(f+l)/2;
+            m=f+(l-f)/2;
         }
    }
    cout<<"key not found in binary search"<<endl;
