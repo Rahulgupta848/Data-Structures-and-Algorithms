@@ -1,7 +1,7 @@
-/*
+/*[binary Search]
 Total occurances in sorted array
 Solution: 
-    step1:Calculate the first and last occurance of element in sorted array.
+    step1:Calculate the first and last occurance of element in sorted array using binary Search.
     step2.Calculate the ans=l-f+1;
 Time Complexity:O(log(n));                               
 

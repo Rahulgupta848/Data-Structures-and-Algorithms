@@ -1,4 +1,4 @@
-/*
+/*[bit manipulation]
 Find duplicate.
 Given an array of length n,there are n-1 numbers and one duplicate,find and print that duplicate.
 Solution:-

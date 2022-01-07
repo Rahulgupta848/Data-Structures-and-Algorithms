@@ -1,4 +1,4 @@
-/*
+/*[bit mainpulation]
 Power of two.
 Solution:
     step1:Any number power of two has only one "1" in its binary representaion.

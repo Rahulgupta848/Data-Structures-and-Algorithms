@@ -1,4 +1,4 @@
-/*
+/*[binary Search]
 Find first and last occurance of element in O(log(n)).
     Solutin:
         step1.Array must be in sorted order.

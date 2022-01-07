@@ -1,4 +1,4 @@
-/*
+/*[bit manipulation]
 Find Unique Element
 Solution:-
     step1:Taking bitwise XOR of all elements in the array it will cancel out all duplicate 
