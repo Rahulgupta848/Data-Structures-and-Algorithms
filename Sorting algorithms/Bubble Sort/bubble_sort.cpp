@@ -1,6 +1,7 @@
 /*
 Bubble Sort.
-Time Complexity : O(n).
+Space complexity:O(1).
+Time Complexity : O(n)^2.
 */
 #include<bits/stdc++.h>
 using namespace std;
