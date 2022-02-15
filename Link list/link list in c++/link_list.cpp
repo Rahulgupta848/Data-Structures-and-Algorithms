@@ -97,6 +97,18 @@ void insert(int pos,int data)
 
 }
 
+void Delete(int pos)
+{
+    Node *p=root;
+    for (int i=1;i<pos-1;i++)
+    {
+        p=p->link;
+    }
+    Node *q=p->link;
+    p->link=q->link;
+    q->link=NULL;
+    free(q);
+}
 int main()
 {
     insertAtEnd(10);
@@ -104,8 +116,8 @@ int main()
     insertAtEnd(30);
     insertAtEnd(40);
     insertAtEnd(50);
-    insert(2,60);
     TraverseList();
+    Delete(2);
     cout<<'\n'<<root->data<<endl;
     return 0;
 }
