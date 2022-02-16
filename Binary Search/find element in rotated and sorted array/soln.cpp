@@ -1,3 +1,4 @@
+// [binary search]
 // find the element in Rotated and sorted array.
 // Time complexity:O(log(n)).
 
