@@ -27,34 +27,4 @@ class linkList():
                temp=temp.next
                count+=1
           return count
-     def oddEven(self):
-          h=self.root
-          o=h
-          e=h
-          e=e.next
-          f=e
-          while(e is not None and e.next is not None):
-               o.next=e.next
-               o=e.next
-               e.next=o.next
-               e=o.next
-          o.next=f
-          temp=h
-          while(temp is not None):
-               print(temp.data,'->',end='')
-def main():
-     l1=linkList()
-     l1.addAtend(10)
-     l1.addAtend(20)
-     l1.addAtend(30)
-     l1.addAtend(40)
-     l1.addAtend(50)
-     l1.addAtend(60)
-     l1.addAtend(70)
-     l1.addAtend(80)
-     l1.addAtend(90)
      
-     l1.oddEven()
-     
-if __name__=="__main__":
-     main()
