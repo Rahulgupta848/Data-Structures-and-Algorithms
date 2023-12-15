@@ -1,0 +1,40 @@
+#include<vector>
+using namespace std;
+
+-----------------VECTOR----------------
+1.Defining vectors in different ways;
+     ---> vector<int> v;   :- vector v of type integer.
+     ---> vector<int> v(5);  :- Vector v with initial size of 5 and all elements are empty int.
+     ---> vector<int> v(3,4); :- Vector v with initial size of 3 and each element is assigned the value 4.
+               It means there will be three elements in the vector and all will have the value 4.
+     ---> vector<int> v={1,2,3}; :- Vector v has pre defined elements 1,2,3.
+
+2.Get total elements in vector.
+     ---> v.size();
+
+3.Get element at index.
+     ---> v.at(0);
+
+4.Check first element of vector.
+     ---> v.front();
+
+5.Check last element of vector.
+     ---> v.back();
+
+6.Add element at back in vector.
+     ---> v.push_back(el);
+
+7.Insert element e at index i.
+     ---> v.insert(i,e);
+
+8.Pop element from back of vector.
+     ---> v.pop_back();
+
+10.clear entire vector.
+     ---> v.clear();
+
+11. Get first element iterator.
+     ---> v.begin();
+
+12. Get last element iterator.
+     ---> v.end();

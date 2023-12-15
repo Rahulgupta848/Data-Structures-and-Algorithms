@@ -1,0 +1,46 @@
+using stl stack in c++.
+
+#include<stack>
+.
+.
+.
+------------------STACK------------------
+
+1.Defining a stack.
+---> stack<int> s;  //stack of integer type
+
+2.Pushing into stack.
+---> s.push(el);
+
+3.Poping from stack.
+---> s.pop();
+
+4.Check top element of stack.
+---> s.top();
+
+5.Check stack is empty.
+---> s.empty();
+
+
+------------------QUEUE------------------
+
+1.Defining a queue.
+---> queue<int> q;
+
+2.Pushing into queue.
+---> q.push(el);
+
+3.Poping from queue.
+---> q.pop();
+
+4.Check front element of queue.
+---> q.front();
+
+5.Check back element of queue.
+---> q.back();
+
+6.check size of queue.
+---> q.size();
+
+7.Check if queue is empty.
+---> q.empth();
