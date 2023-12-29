@@ -43,4 +43,4 @@ using stl stack in c++.
 ---> q.size();
 
 7.Check if queue is empty.
----> q.empth();
+---> q.empty();
