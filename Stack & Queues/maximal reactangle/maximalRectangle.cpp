@@ -60,7 +60,9 @@ int getMaximalRectangle(vector<vector<int> > arr){
 }
 
 int main(){
-     vector<vector<int> > matrix = {{1,0,1,0,0},{1,0,1,1,1},{1,1,1,1,1},{1,0,0,1,0}};
-     cout<<getMaximalRectangle(matrix);
+     vector<vector<int> > matrix1 = {{1,0,1,0,0},{1,0,1,1,1},{1,1,1,1,1},{1,0,0,1,0}};
+     vector<vector<int> > matrix2 = {{1,0,1,0,0},{1,0,1,1,1}};
+     cout<<getMaximalRectangle(matrix1)<<endl;
+     cout<<getMaximalRectangle(matrix2)<<endl;
      return 0 ;
 }
