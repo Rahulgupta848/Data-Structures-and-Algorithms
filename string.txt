@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+----------------using string in c++--------------
+
+string str = "abcedfgh";
+
+1.checking length of string
+-----> str.length() or str.size()
+
+2.clear the string
+------> str.clear();
+
+3.check if string is empty
+------> str.empty();
+
+4. Access fornt character of string
+------> str.front()  or str[0]
+
+5. Access last character of string
+------> str.back()  or  str[str.length()-1]
+
+6. Access ith character of string
+------> str[i]
+
+7. Concat two strings
+------> str1 + str2  or  str1.append(str2);
+
+8. Compare two strings
+------> str1 == str2  or str1.compare(str2);
+
+9. Check if character or substring is present in string or not
+------> str.find("c");
+
+10 . Get substring from string  (start is starting index of substring to extract and len is the lenght of substring required)
+------>  str.substr(start, len);
+
+11. remove characters from string
+------> str.erase(start, len);
+
+12. Converting string to integer
+------> stoi(str);
+
+13. Converting integer to string
+------> to_string(num);
+
+

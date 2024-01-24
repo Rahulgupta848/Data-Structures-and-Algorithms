@@ -1,0 +1,19 @@
+---------------------- Sets in CPP --------------------------
+1. Defining a set 
+     -------------> set<int> s;
+     -------------> set<int> s = {1,2,3,4};
+
+2. inserting element in set;
+     -------------> s.insert(element);
+
+3. removing a element from set;
+     -------------> s.erase(element);
+
+4. find if element is prenset in set;
+     -------------> s.find(element);
+
+5. get length of set;
+     -------------> s.size();
+
+6. clear the set;
+     -------------> s.clear();

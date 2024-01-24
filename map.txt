@@ -1,0 +1,92 @@
+-----------------Maps in CPP-------------------------
+#include<map>
+
+1. Defining a map
+     a. map<int,int> m;
+     b. map<int,int> m ={{1,20000} , {2,1000} , {3,3000}};
+
+2. Adding elements to the map
+     a. using indexing
+     ---------> m[1] = 1000;
+
+     b. using insert method and make_pair.
+     ---------> m.insert(make_pair(1,1000));
+
+     c. using insert method and pair.
+     ---------> m.insert(pair<int,int>(1,1000));
+4. get size of map.
+     ---------> m.size();
+
+5. check if map is empty;
+     ---------> m.empty();
+
+6. get iterator pointing to the first element in map;
+     ---------> m.begin();
+
+7. get iterator pointing to the element next to the last element in map;
+     ----------> m.end();
+
+8. Accessing elements 
+     a. access single element using indexing
+     ----------> m[key];
+
+     b. access elements using loops;
+          for(auto itr = m.begin() ; itr!= m.end() ;itr++){
+               ----- itr->first;
+               ----- itr->second;
+          }
+
+9. check if key exist in map using find;
+     -----------> m.find(key) -- return the iterator if key exist and returns m.end() if does not exist
+
+10. clear all elements from map.
+     -----------> m.clear();
+
+11. remove specific key from map.
+     -----------> m.erase(key);
+
+
+-------------------------------Maps/Dictionaries in python--------------------------------------
+
+1.Defining a Dictionaries
+     a. using curl brackets.
+     ----------> d = {}
+
+     b. predefine dictionary using curl brackets.
+     ----------> d = {
+          "name" : "John",
+          "age" :23,
+          "city":"New York"
+          }
+
+     b. using dict keyword by passing array of tuples containing (key,value)
+     -----------> d = dict[("name","rahul"),("age":23)]
+
+2. inserting elements in dictionary
+     a. using indexing
+     -----------> d["name"] = "John"
+
+3. accessing elements in dictionary
+     -----------> d["name"]
+
+4. check if key is present in dictionary.
+     a. using if in 
+     ----------- > if "name" in d:
+
+     b. using has_key
+     -----------> d.has_key(key)
+
+5. get length of dictionary
+     -----------> len(d)
+
+6. clear the data of dictionary
+     -----------> d.clear()
+
+7. delete element in dictionary
+     -----------> d.pop(key)
+
+8. get all keys of dictionary
+     -----------> d.keys()
+
+9. get all values of dictionary
+     -----------> d.values()
