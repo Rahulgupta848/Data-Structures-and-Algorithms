@@ -1,0 +1,37 @@
+pointer:-
+     pointer is a variable that stores address.they are used to allocate new objects on heap.
+     to pass functions to other functions,to iterate over elements in arrays or other data structures.
+
+declarition:-
+     int *ptr = null;
+     int *ptr = &a;
+
+     e.g. 1. int n = 10;
+     	     int *ptr = &n;
+
+	     cout<<n;----------> 5;
+	     cout<<&n; --------> address of n
+	     cout<<ptr --------> address of n
+	     cout<<&ptr -------> address of ptr
+	     cout<< *ptr ------> 5;  
+	     
+	     here * is the derefrence operator it prints the value stored at the address 
+	     stored by pointer.
+
+dynamic memory allocation:-
+	in c++ using new keyword we can create variable in heap. when we create a variable 
+	dynamically, address is returned of dynamically created vairiable. and in order to 
+	track it or store it pointers are used.
+
+	int *ptr = new int; ------> create int variabe in heap and store in pointer.
+	*ptr = 5;     -----------> store data in variable pointed by pointer.
+
+	delete ptr;  ------------> deallocate memory
+
+dont use int arr[n];
+	here arr[n] is considered as bad practice because n can exceed at any limit. thus 
+	here array is crated in stack so limited amount of memeory is present but instade 
+	we can create n ammoutn of interger memory in heap and then return its address 
+	in static memory in stack.
+
+	int *arr = new int[n];
