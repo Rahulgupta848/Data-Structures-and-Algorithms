@@ -38,3 +38,5 @@ using namespace std;
 
 12. Get last element iterator.
      ---> v.end();
+
+13. When passed to a function vector is passed by value i.e a shallow copy is passed to a function.
